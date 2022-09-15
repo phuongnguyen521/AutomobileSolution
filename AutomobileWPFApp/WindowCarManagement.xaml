@@ -25,29 +25,29 @@
                     <TextBox Name="txtCarId" HorizontalAlignment="Stretch"
                          Height="25"
                          Text="{Binding Path=CarId, Mode=OneWay}"
-                         DataContext="{Binding ElementName=lvCars, Path=SelectedItem}"/>
+                         DataContext="{Binding ElementName=LvCars, Path=SelectedItem}"/>
                     <Label Name="lblCarName"  Content="Car Name"/>
                     <TextBox Name="txtCarName" HorizontalAlignment="Stretch"
                          Height="25"
                          Text="{Binding Path=CarName, Mode=OneWay}"
-                         DataContext="{Binding ElementName=lvCars, Path=SelectedItem}"/>
+                         DataContext="{Binding ElementName=LvCars, Path=SelectedItem}"/>
                     <Label Name="lblManufacturer"  Content="Manufacturer"/>
                     <TextBox Name="txtManufacturer" HorizontalAlignment="Stretch"
                          Height="25"
                          Text="{Binding Path=Manufacturer, Mode=OneWay}"
-                         DataContext="{Binding ElementName=lvCars, Path=SelectedItem}"/>
+                         DataContext="{Binding ElementName=LvCars, Path=SelectedItem}"/>
                     <Label Name="lblPrice"  Content="Price"/>
                     <TextBox Name="txtPrice" HorizontalAlignment="Stretch"
                          Height="25"
                          Text="{Binding Path=Price,
                                 StringFormat={}{0:N3},
                                 Mode=OneWay}"
-                         DataContext="{Binding ElementName=lvCars, Path=SelectedItem}"/>
+                         DataContext="{Binding ElementName=LvCars, Path=SelectedItem}"/>
                     <Label Name="lblReleasedYear"  Content="ReleasedYear"/>
                     <TextBox Name="txtReleasedYear" HorizontalAlignment="Stretch"
                          Height="25"
                          Text="{Binding Path=ReleasedYear, Mode=OneWay}"
-                         DataContext="{Binding ElementName=lvCars, Path=SelectedItem}"/>
+                         DataContext="{Binding ElementName=LvCars, Path=SelectedItem}"/>
                 </StackPanel>
                 <StackPanel Grid.Row="1" Orientation="Horizontal" 
                             HorizontalAlignment="Left">
